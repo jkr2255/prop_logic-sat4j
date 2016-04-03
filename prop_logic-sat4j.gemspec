@@ -9,8 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Jkr2255"]
   spec.email         = ["magnesium.oxide.play@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.summary       = 'Sat4j bindings for prop_logic'
   spec.homepage      = "https://github.com/jkr2255/prop_logic-sat4j"
   spec.license       = "EPL/LGPL"
 
