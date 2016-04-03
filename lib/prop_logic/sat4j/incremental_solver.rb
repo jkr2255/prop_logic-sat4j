@@ -70,6 +70,7 @@ module PropLogic
         @reversed_vars = {}
         set_vars = @variables_map.keys & variables
         set_vars.each { |v| @reversed_vars[@variables_map[v]] = v }
+        @reversed_count = @variables_map.length
       end
 
       def variable_from_int(num)
