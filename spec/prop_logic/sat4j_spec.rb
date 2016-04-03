@@ -5,7 +5,7 @@ describe PropLogic::Sat4j do
     expect(PropLogic::Sat4j::VERSION).not_to be nil
   end
 
-  it 'does something useful' do
-    expect(false).to eq(true)
+  it 'loads Sat4j jar' do
+    expect(Java::OrgSat4jMinisat::SolverFactory).to be_a(Class)
   end
 end
